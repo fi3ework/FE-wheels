@@ -1,0 +1,29 @@
+{
+  "name": "FE-wheels",
+  "version": "1.0.0",
+  "description": "🚑 some front-end wheels",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fi3ework/FE-wheels.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fi3ework/FE-wheels/issues"
+  },
+  "homepage": "https://github.com/fi3ework/FE-wheels#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.5.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.17.0",
+    "eslint-config-alloy": "^1.4.1"
+  }
+}

@@ -4,7 +4,9 @@
 
 > Prictice makes perfect.
 
+😎 一些值得动手实现的前端代码段：
 
+1. [深拷贝](./src/deepClone.md)
 
 
 😎 一些值得动手实现的前端轮子：

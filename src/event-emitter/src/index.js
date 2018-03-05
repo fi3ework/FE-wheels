@@ -17,11 +17,11 @@ class EventEmitter {
     }
   }
 
-  on(eventName, listener, option) {
+  on(eventName, listener) {
     this.addListener(eventName, listener, { once: false })
   }
 
-  once(eventName, listener, option) {
+  once(eventName, listener) {
     this.addListener(eventName, listener, { once: true })
   }
 

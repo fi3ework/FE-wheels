@@ -1,1 +1,0 @@
-import VD from './virtual-dom'

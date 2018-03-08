@@ -31,15 +31,18 @@ let obj = {
 ## 深拷贝
 
 ### 方法１ 
+
 ```javascript
 function jsonClone(src) {
     return JSON.parse(JSON.stringify(src));
 }
 ```
+
 简单粗暴有效的方法，但是只能处理能够 JSON 序列化的对象，如果原对象中有个一个函数属性，那么拷贝出来的对象将**直接丢失**这个属性
 
 ### 方法2
 递归调用浅拷贝
+
 ```javascript
 function deepClone(src){
   if (Object.prototype.toString(src) === '[object Null]' ||

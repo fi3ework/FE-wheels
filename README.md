@@ -5,6 +5,7 @@
 🔩 代码段：
 
 1. [深拷贝](./src/deepClone.md)
+2. [用 setTimeout 实现 setInterval](./src/setInterval.md)
 
 
 ⚙️ 轮子：

@@ -6,6 +6,7 @@
 
 1. [深拷贝](./src/deepClone.md)
 2. [用 setTimeout 实现 setInterval](./src/setInterval.md)
+3. [柯里化](./src/curry.md)
 
 
 ⚙️ 轮子：
